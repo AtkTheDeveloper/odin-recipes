@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(145, 207, 83);
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    font-size: 30px;
+}
