@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 400px;
+    height: auto;
+}
+h2{
+    background-color: #ff004f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    text-align: center;
+}
