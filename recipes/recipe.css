@@ -1,27 +1,134 @@
-h1{
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-img{
-    width: 400px;
-    height: auto;
+.container{
+    width: 1100px;
+    margin: 0 auto;
 }
-h2{
-    background-color: #ff004f;
-    text-align: center;
+/* Navbar */
+.navbar{
+    background-color: rgba(59, 59, 222, 0.976);
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container nav ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar .container nav ul li{
+    list-style: none;
+}
+.container nav ul li a{
     font-size: 30px;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
 }
-a{
-    background-color: black;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
+.container nav ul li a:hover{
+    background-color: #ff004f;
+    padding: 15px;
+    border-radius: 7px;
 }
-p{
+.container nav ul li a.active{
+    color: yellow;
+}
+/* Hero Section */
+.hero{
+    background-color: rgba(59, 59, 222, 0.976);
+    padding: 40px 40px;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 60px;
+}
+.hero .hero-text{
+    background-color: rgba(0, 255, 255, 0.774);
+    padding: 30px;
+    border-radius: 7px;
+}
+.hero .container .hero-text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
     text-align: center;
+}
+.hero-text p{
+    font-size: 20px;
+    text-align: center;
+}
+.hero .container img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+/* Ingredient Section */
+.ingredients{
+    margin-top: 50px;
+}
+.ingredients .container{
+    background-color: rgba(59, 59, 222, 0.976);
+    padding: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.ingredients .container h2{
+    font-size: 26px;
+}
+.ingredients .container ul{
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+}
+.ingredients .container ul li{
+    list-style: none;
+    font-size: 20px;
+}
+/* Steps Section */
+.steps{
+    background-color: #539edf;
+    padding: 20px;
+}
+.steps .container h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.steps .container ol{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+.steps .container .card{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+/* Footer Section */
+.footer{
+    background-color: #1F2937;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer-p{
+    color: white;
+    font-size: 25px
 }
